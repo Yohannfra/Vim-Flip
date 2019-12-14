@@ -1,6 +1,9 @@
 # Vim-Flip
 A vim plugin to toggle booleans or any values
 
+Demo :\
+![alt text](.github/demo.gif "demo")
+
 ## Installation
 
 ### Using Plug
