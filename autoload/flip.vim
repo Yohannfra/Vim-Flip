@@ -8,7 +8,6 @@ if !exists('g:vim_flip_dict')
 endif
 
 function! s:FlipWith(new_word)
-    echo a:new_word
     let command = "normal ciw" . a:new_word
     execute command
     normal b
