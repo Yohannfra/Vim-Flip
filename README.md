@@ -1,5 +1,5 @@
 # Vim-Flip
-A little vim plugin to toggle booleans or any values
+A vim plugin to toggle booleans or any values
 
 ## Installation
 
