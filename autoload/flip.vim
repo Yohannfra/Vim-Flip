@@ -19,8 +19,10 @@ function! flip#Flip()
     for w in keys(g:vim_flip_dict)
         if cword == w
             call s:FlipWith(g:vim_flip_dict[w])
+            break
         elseif cword == g:vim_flip_dict[w]
             call s:FlipWith(w)
+            break
         endif
     endfor
 endfunction
